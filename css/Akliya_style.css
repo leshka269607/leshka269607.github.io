@@ -1,0 +1,83 @@
+/* Стиль Akliya
+  ======================================================================== */
+body {
+  margin: 8px;
+  padding: 0;
+  min-width: 960px;
+  
+  font-size: 16px;
+  line-height: 20px;
+  font-style: normal;
+  border: inset 5px white;
+  font-family: "Times New Roman", "Times", Serif;
+}
+
+input, textarea {
+  box-shadow: none;
+}
+
+#info {
+  margin-left: 5px;
+  float: left;
+  color: #00e000;
+  font-style: italic;
+}
+
+#info p {
+  margin: 0;
+  padding: 0;
+}
+
+/* Комментарии выводимые программой для пользователя (инф-я об ошибке, подсказка что вводить и т.д.) */
+.error {
+  color: red;
+  font: 18px;
+  font-style: italic;
+  font-weight: 500;
+  text-shadow: 0 1px 1px #c1f7ff;
+}
+
+/************************************ Кнопка */
+.btn {
+  margin-top: 10px;
+  background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #bddbfa), color-stop(1, #80b5ea) );
+  background:-moz-linear-gradient( center top, #bddbfa 5%, #80b5ea 100% );
+  background-color:#bddbfa;
+  -webkit-border-top-left-radius:0px;
+  -moz-border-radius-topleft:0px;
+  border-top-left-radius:0px;
+  -webkit-border-top-right-radius:30px;
+  -moz-border-radius-topright:30px;
+  border-top-right-radius:30px;
+  -webkit-border-bottom-right-radius:0px;
+  -moz-border-radius-bottomright:0px;
+  border-bottom-right-radius:0px;
+  -webkit-border-bottom-left-radius:30px;
+  -moz-border-radius-bottomleft:30px;
+  border-bottom-left-radius:30px;
+  text-indent:0px;
+  border:2px solid #84bbf3;
+  display:inline-block;
+  color:#ffffff;
+  font-family:Arial;
+  font-size:15px;
+  font-weight:bold;
+  font-style:normal;
+  height:21px;
+  line-height:21px;
+  width:129px;
+  text-decoration:none;
+  text-align:center;
+  text-shadow:1px 1px 0px #528ecc;
+}
+
+.btn:hover {
+  background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #80b5ea), color-stop(1, #bddbfa) );
+  background:-moz-linear-gradient( center top, #80b5ea 5%, #bddbfa 100% );
+  background-color:#80b5ea;
+}
+
+.btn:active {
+  position:relative;
+  top:1px;
+}
